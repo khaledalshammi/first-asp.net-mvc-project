@@ -1,0 +1,622 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\TestProject\\TestProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.DataAccess\\FirstProject.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.DataAccess\\FirstProject.DataAccess.csproj",
+        "projectName": "FirstProject.DataAccess",
+        "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.DataAccess\\FirstProject.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\khalo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj"
+              },
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23360.4, )"
+            },
+            "OrchardCore.Localization.Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Rick.Docs.Samples.RouteInfo": {
+              "target": "Package",
+              "version": "[1.0.0.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.25.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj",
+        "projectName": "FirstProject.Models",
+        "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj",
+        "packagesPath": "C:\\Users\\khalo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23360.4, )"
+            },
+            "OrchardCore.Localization.Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Rick.Docs.Samples.RouteInfo": {
+              "target": "Package",
+              "version": "[1.0.0.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.25.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj",
+        "projectName": "FirstProject.Utility",
+        "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj",
+        "packagesPath": "C:\\Users\\khalo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23360.4, )"
+            },
+            "OrchardCore.Localization.Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Rick.Docs.Samples.RouteInfo": {
+              "target": "Package",
+              "version": "[1.0.0.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.25.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\first_project\\first_project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\first_project\\first_project.csproj",
+        "projectName": "first_project",
+        "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\first_project\\first_project.csproj",
+        "packagesPath": "C:\\Users\\khalo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\first_project\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.DataAccess\\FirstProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.DataAccess\\FirstProject.DataAccess.csproj"
+              },
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj"
+              },
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.2.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23360.4, )"
+            },
+            "OrchardCore.Localization.Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Rick.Docs.Samples.RouteInfo": {
+              "target": "Package",
+              "version": "[1.0.0.8, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.25.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\TestProject\\TestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\TestProject\\TestProject.csproj",
+        "projectName": "TestProject",
+        "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\TestProject\\TestProject.csproj",
+        "packagesPath": "C:\\Users\\khalo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\TestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.DataAccess\\FirstProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.DataAccess\\FirstProject.DataAccess.csproj"
+              },
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Models\\FirstProject.Models.csproj"
+              },
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\FirstProject.Utility\\FirstProject.Utility.csproj"
+              },
+              "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\first_project\\first_project.csproj": {
+                "projectPath": "C:\\Users\\khalo\\OneDrive\\سطح المكتب\\asp.net\\first_project\\first_project\\first_project.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.6.23330.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

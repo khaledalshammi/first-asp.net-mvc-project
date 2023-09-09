@@ -1,0 +1,7 @@
+C:\Users\khalo\OneDrive\سطح المكتب\asp.net\first_project\FirstProject.DataAccess\obj\Debug\net6.0\FirstProject.DataAccess.csproj.AssemblyReference.cache
+C:\Users\khalo\OneDrive\سطح المكتب\asp.net\first_project\FirstProject.DataAccess\obj\Debug\net6.0\MvcTestingAppManifest.json
+C:\Users\khalo\OneDrive\سطح المكتب\asp.net\first_project\FirstProject.DataAccess\obj\Debug\net6.0\FirstProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khalo\OneDrive\سطح المكتب\asp.net\first_project\FirstProject.DataAccess\obj\Debug\net6.0\FirstProject.DataAccess.AssemblyInfoInputs.cache
+C:\Users\khalo\OneDrive\سطح المكتب\asp.net\first_project\FirstProject.DataAccess\obj\Debug\net6.0\FirstProject.DataAccess.AssemblyInfo.cs
+C:\Users\khalo\OneDrive\سطح المكتب\asp.net\first_project\FirstProject.DataAccess\obj\Debug\net6.0\FirstProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\khalo\OneDrive\سطح المكتب\asp.net\first_project\FirstProject.DataAccess\obj\Debug\net6.0\FirstProject.DataAccess.sourcelink.json
